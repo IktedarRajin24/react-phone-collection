@@ -37,14 +37,14 @@ const router = createBrowserRouter([
           {
             path: 'apple',
             element: <Apple></Apple>,
-            loader: ()=> fetch('https://openapi.programming-hero.com/api/phones?search=iphone')
+            loader: ()=> fetch('https://openapi.programming-hero.com/api/phones?search=iphonen')
           }
         ]
       },
       {
         path : 'contact',
         element: <Contact></Contact>
-      },
+      }
       
     ]
   }
